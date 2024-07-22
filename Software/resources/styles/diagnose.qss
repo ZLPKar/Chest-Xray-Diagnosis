@@ -1,0 +1,41 @@
+QWidget {
+    background-color: #d3d3d3;  
+    font-family: Arial, sans-serif;
+    font-size: 24px;  
+}
+
+QLabel {
+    color: #333;
+    margin: 12px 0;  
+}
+
+QPushButton {
+    background-color: #0057b7;
+    color: white;
+    border: none;
+    padding: 15px 30px;  /* Increased padding to accommodate larger text */
+    font-weight: bold;
+    border-radius: 10px;
+    min-width: 150px;  /* Ensure buttons have a minimum width */
+    min-height: 50px;  /* Ensure buttons have a minimum height */
+}
+
+QPushButton:hover {
+    background-color: #004c9e;
+}
+
+QPushButton:disabled {
+    background-color: #a0a0a0;
+}
+
+QLineEdit {
+    border: 2px solid black;
+    border-radius: 15px;
+    color: black;
+    padding: 10px;
+    margin: 5px 0;  /* Add some vertical space around the input fields */
+}
+
+QLineEdit:focus {
+    border-color: #0057b7;
+}

@@ -1,0 +1,23 @@
+QPushButton {
+    background-color: #003366;  /* Dark blue background */
+    color: white;               /* White text */
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 30px;           
+    font-weight: bold;          
+    min-width: 200px;
+    max-width: 1200px;
+    min-height: 150px;
+}
+QPushButton:hover {
+    background-color: #002244;  /* Slightly darker blue on hover */
+}
+
+QPushButton:pressed {
+    background-color: #001122;  /* Even darker blue when pressed */
+}
+
+QMainWindow {
+    background-color: #333333;  /* Light grey background */
+}
