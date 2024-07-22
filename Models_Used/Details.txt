@@ -1,0 +1,9 @@
+modelv3 - classifies 3 classes, Normal, Bacterial Pnuemonia and Viral Pnuemonia - 82% accuracy
+modelCovid - classifies 3 classes, Normal, Covid and general Pnuemonia - 85% accuracy
+
+Dataset links
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+
+https://www.kaggle.com/datasets/prashant268/chest-xray-covid19-pneumonia
+
+to use the sortertest files, make use of the sample images and change the directories to match the file location
